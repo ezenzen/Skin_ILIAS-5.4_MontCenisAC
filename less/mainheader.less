@@ -1,0 +1,219 @@
+/*--------------------HEADER--------------------*/
+.ilFixedTopSpacer {
+  padding-top: 172px;
+}
+@media only screen and (max-width: 767px) {
+  .ilFixedTopSpacer {
+    padding-top: 5px;
+  }
+}
+
+/*------TOPBAR------*/
+.ilTopTitle {
+  display: none;
+}
+.ilTopTitle.ilTopTitleVisible {
+  display: inherit;
+}
+.navbar-brand {
+  margin-top: -5px !important;
+}
+.second-navbar-brand {
+  float: right;
+  margin: 20px 15px 0 0;
+}
+@media only screen and (max-width: 991px) {
+  .second-navbar-brand {
+    display: none;
+  } 
+}
+.navbar-text {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  .Line1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .Line2 {
+    font-size: 24px;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-text {
+      display: none;
+    }
+  .ilMainHeader > header > .row > a.navbar-brand > img {
+      height: 40px !important;
+      width: 40px !important;
+      margin-top: 0px !important;
+   }
+}
+.ilMainHeader > header > .row > a.navbar-brand > img {
+  height: auto;
+  width: 150px;
+  margin-top: 12px;
+}
+div#il_startup_logo {
+  display: inline-block;
+  float: left;
+  img {
+    height: auto;
+    width: 150px;
+    margin-top: 10px;
+  }
+}
+.il_second_startup_logo {
+    float: right;
+    margin: 20px 0 0 0;
+}
+@media only screen and (max-width: 991px) {
+  .il_second_startup_logo {
+    display: none;
+  }
+}
+.startup-navbar-text {
+  margin: 13px 15px 13px 15px;
+  float: left;
+  .Line1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .Line2 {
+    font-size: 24px;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .startup-navbar-text {
+    float: none;
+    position: absolute;
+  }
+}
+.ilMainMenu.ilStartupMainMenu {
+  margin-top: 37px;
+}
+.ilStartupMainMenu .navbar {
+  height: 37px;
+}
+.ilMainHeader {
+  background-color: white;
+  height: 95px;
+}
+div.ilTopBar {
+  background-color: @brand-primary;
+}
+#ilTopBarNav > li > a {
+  background-color: transparent;
+  color: white;
+}
+#ilTopBarNav .dropdown-menu {
+  background-color: white;
+  margin: 0 !important;
+}
+#ilTopBarNav .dropdown-menu a:hover,
+#ilTopBarNav .dropdown-menu a:active,
+#ilTopBarNav .dropdown-menu a:focus {
+  background-color: @accent-secondary;
+  color: #262626;
+}
+#ilTopBarNav > .active > a,
+#ilTopBarNav > .open > a,
+#ilTopBarNav > .active > a:hover,
+#ilTopBarNav > .open > a:hover,
+#ilTopBarNav > .active > a:active,
+#ilTopBarNav > .open > a:active,
+#ilTopBarNav > .active > a:focus,
+#ilTopBarNav > .open > a:focus {
+    color: @brand-primary;
+    background-color: white;
+}
+#ilTopBarNav > li > a:hover,
+#ilTopBarNav > li > a:active,
+#ilTopBarNav > li > a:focus {
+  color: @brand-primary;
+  background-color: white;
+}
+#ilTopBarNav .dropdown-menu #ilMMSearchMenu a,
+#ilTopBarNav .dropdown-menu #ilMMSearchMenu a:hover,
+#ilTopBarNav .dropdown-menu #ilMMSearchMenu a:active,
+#ilTopBarNav .dropdown-menu #ilMMSearchMenu a:focus {
+  color: @gray;
+}
+#ilTopBarNav .dropdown-menu {
+  color: @gray;
+}
+
+/*------TOPNAV (MAINMENU)------*/
+.ilMainMenu.ilTopFixed {
+  top: 171px;
+}
+@media only screen and (max-width: 767px) {
+  .ilMainMenu.ilTopFixed {
+    top: 78px;
+  }
+}
+#ilMainMenuEntries {
+  max-width: 1400px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+#ilTopNav {
+  margin: -38px 0 0 0;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+}
+#ilTopNav.navbar-default {
+  background-color: @brand-primary;
+}
+#ilTopNav .navbar-nav > li > a {
+  color: white;
+  border-top: 4px solid transparent;
+  text-transform: inherit;
+}
+#ilTopNav .navbar-nav > li > a:hover,
+#ilTopNav .navbar-nav > li > a:active,
+#ilTopNav .navbar-nav > li > a:focus {
+  color: white;
+  background-color: @brand-primary-hover;
+}
+#ilTopNav .navbar-nav > .active > a,
+#ilTopNav .navbar-nav > .open > a,
+#ilTopNav .navbar-nav > .active > a:hover,
+#ilTopNav .navbar-nav > .open > a:hover,
+#ilTopNav .navbar-nav > .active > a:active,
+#ilTopNav .navbar-nav > .open > a:active,
+#ilTopNav .navbar-nav > .active > a:focus,
+#ilTopNav .navbar-nav > .open > a:focus {
+  background-color: @brand-primary-hover;
+  color: white;
+  border-top: 4px solid @brand-primary-hover;
+}
+#ilTopNav .dropdown-menu li a {
+  color: @gray;
+}
+#ilTopNav .dropdown-menu li a:hover {
+  background-color: @accent-secondary;
+}
+a#il_mhead_t_focus {
+  color: @brand-primary;
+  font-weight: 600;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    margin: 0;
+    padding-bottom: 2px;
+  }
+  #ilTopNav .navbar-nav {
+    margin-left: 10px;
+  }
+  #ilTopNav .navbar-nav > li {
+    margin: 0;
+  }
+}
+ul.il-mm-selfloading {
+  width: 925px;
+}
