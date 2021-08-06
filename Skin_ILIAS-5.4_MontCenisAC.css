@@ -17433,6 +17433,9 @@ table.calstd {
 .btn:focus {
   outline-offset: 0 !important;
 }
+footer.ilFooter {
+  position: relative;
+}
 footer .btn-default {
   background-color: white;
   color: #3c506e;
@@ -17730,22 +17733,22 @@ div.ilStartupSection form.form-horizontal {
   display: inherit;
   position: absolute;
   top: 50%;
-  margin-top: -75px;
+  margin-top: -50px;
   width: 50px;
-  right: 25px;
+  right: -25px;
 }
 .ilc_ca_cntr_CarouselCntr.owl-carousel .owl-nav button.owl-prev,
 .ilc_ca_cntr_CarouselCntr.owl-carousel .owl-nav button.owl-next {
-  font-size: 45px;
+  font-size: 30px;
   color: white;
-  width: 75px;
+  width: 50px;
   background: rgba(0, 0, 0, 0.6);
   margin-bottom: 5px;
 }
 .ilc_ca_cntr_CarouselCntr.owl-carousel .owl-nav button.owl-prev span,
 .ilc_ca_cntr_CarouselCntr.owl-carousel .owl-nav button.owl-next span {
-  padding-bottom: 10px;
   display: block;
+  padding-bottom: 5px;
 }
 div.ilc_section_Link:after {
   content: "";
