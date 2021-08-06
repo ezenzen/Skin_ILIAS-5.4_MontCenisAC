@@ -17435,6 +17435,7 @@ table.calstd {
 }
 footer.ilFooter {
   position: relative;
+  bottom: -2px !important;
 }
 footer .btn-default {
   background-color: white;

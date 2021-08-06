@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<template xmlns="http://www.w3.org" version="0.225" name="Skin_ILIAS-5.4_MontCenisAC">
+<template xmlns="http://www.w3.org" version="0.227" name="Skin_ILIAS-5.4_MontCenisAC">
   <style id="Skin_ILIAS-5.4_MontCenisAC" name="Skin_ILIAS-5.4_MontCenisAC" image_directory="images" css_file="Skin_ILIAS-5.4_MontCenisAC" sound_directory="sound" font_directory="fonts"/>
 </template>
