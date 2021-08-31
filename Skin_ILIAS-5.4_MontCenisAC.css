@@ -17433,10 +17433,6 @@ table.calstd {
 .btn:focus {
   outline-offset: 0 !important;
 }
-footer.ilFooter {
-  position: relative;
-  bottom: -2px !important;
-}
 footer .btn-default {
   background-color: white;
   color: #3c506e;
@@ -17919,6 +17915,25 @@ div.ilTopMemberView h3 {
   left: 0;
   height: 100%;
   width: 100%;
+}
+.ilc_section_LayoutMaterialliste .row.ilContainerBlockHeader .btn-group {
+  padding-right: 15px;
+}
+.ilc_section_LayoutMaterialliste a {
+  color: #3C506E;
+  font-weight: bold;
+  font-size: 130%;
+}
+.ilc_section_LayoutMaterialliste div.ilContainerListItemIcon {
+  visibility: hidden;
+}
+.ilc_section_LayoutMaterialliste .ilContainerListItemOuter img,
+.ilc_section_LayoutMaterialliste img.ilListItemIcon {
+  width: 15px;
+  height: 15px;
+}
+.ilc_section_LayoutMaterialliste div.il_ContainerListItem .ilFloatRight {
+  padding-right: 15px;
 }
 #il_right_col div.ilBlockHeader,
 #il_right_col div.ilBlockHeaderBig,
