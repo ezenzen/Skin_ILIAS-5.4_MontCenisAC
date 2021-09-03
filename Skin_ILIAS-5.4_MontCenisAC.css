@@ -17935,6 +17935,12 @@ div.ilTopMemberView h3 {
 .ilc_section_LayoutMaterialliste div.il_ContainerListItem .ilFloatRight {
   padding-right: 15px;
 }
+.ilc_section_LayoutMaterialliste .ilObjListRow {
+  background-color: transparent;
+}
+.ilc_section_LayoutMaterialliste div.ilListItemSection {
+  display: none;
+}
 #il_right_col div.ilBlockHeader,
 #il_right_col div.ilBlockHeaderBig,
 #il_right_col td.ilBlockHeader,
